@@ -1,0 +1,38 @@
+body{
+    background: radial-gradient(#393e71, #000000);
+    background-size: cover;
+    background-repeat: round;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'carbon\bl';
+    color: white;
+    text-align: center;
+    top: 25%;
+    z-index: 2;
+    position: sticky;
+}
+
+
+img[title="siri"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    z-index: 1;
+    top: 30%;
+
+}
+
+.texts{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+p{
+    font-size: 16px;
+    color: white;
+    position: relative;
+}

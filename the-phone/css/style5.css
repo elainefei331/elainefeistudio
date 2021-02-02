@@ -1,0 +1,24 @@
+body{
+    background: radial-gradient(#393e71, #000000);
+    background-size: cover;
+    background-repeat: round;
+}
+
+img[title="email"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    width: 90%;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+
+#map{
+    z-index: 2;
+    position: absolute;
+    margin-left: 985px;
+    top: 55.5%;
+    font-size: 11px;
+}
