@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'GreatVibes-Regular';
+    src:url('../fonts/GreatVibes-Regular.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'ArefRuqaa-Regular';
+    src:url('../fonts/ArefRuqaa-Regular.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'ArefRuqaa-Bold';
+    src:url('../fonts/ArefRuqaa-Bold.woff2') format('woff2');
+    font-weight: bold;
+}
