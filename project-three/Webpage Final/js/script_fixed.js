@@ -63,7 +63,7 @@ function showVideos() {
       videoContainer.append(videoDescription);
 
       //add url link
-      var videoLink = document.createElement("h2");
+      var videoLink = document.createElement("h3");
       videoLink.classList.add("video-link");
       videoLink.innerText = video.fields.link;
       videoContainer.append(videoLink);
