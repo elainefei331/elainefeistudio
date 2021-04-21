@@ -51,9 +51,9 @@ function showVideos() {
       videoContainer.append(videoMood);
 
       //add title
-      var videoTitle = document.createElement("h2");
-      videoTitle.classList.add("video-title");
-      videoTitle.innerText = video.fields.title;
+      var videoTitle = document.createElement("h2"); // <h2></h2>
+      videoTitle.classList.add("video-title");      //<h2 class='video-title'> </h2>
+      // videoTitle.innerText = video.fields.title;    // <h2 class='video-title'> innerText </h2>
       videoContainer.append(videoTitle);
 
       //add description
@@ -63,10 +63,14 @@ function showVideos() {
       videoContainer.append(videoDescription);
 
       //add url link
-      var videoLink = document.createElement("h3");
+      var videoLink = document.createElement("a");
       videoLink.classList.add("video-link");
-      videoLink.innerText = video.fields.link;
-      videoContainer.append(videoLink);
+      videoLink.href = video.fields.link;
+      videoLink.innerText = video.fields.title;
+      videoTitle.append(videoLink);
+      
+      // var str = ".video-title";
+      // var result = str.link(videoLink);
 
       //add bubble moving attributes
       videoContainer.style.position = "absolute";

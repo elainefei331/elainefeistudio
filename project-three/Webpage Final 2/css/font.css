@@ -1,0 +1,23 @@
+@font-face{
+    font-family: 'Rosarivo-Regular';
+    src:url('../assets/Rosarivo-Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Rosarivo-Italic';
+    src:url('../assets/Rosarivo-Italic.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Quicksand-Light';
+    src:url('../assets/Quicksand-Light.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Quicksand-Regular';
+    src:url('../assets/Quicksand-Regular.woff') format('woff');
+    font-weight: normal;
+}
