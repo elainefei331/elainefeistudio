@@ -3,7 +3,7 @@ body {
  }
  
  h1 {
-    font-family: 'Quicksand-Regular';
+    font-family: 'Rabbit-On-The-Moon';
     font-size: 10rem;
     color: #ffffff;
     line-height: 5rem;
@@ -30,7 +30,7 @@ body {
  
  h3 {
     font-family: 'Quicksand-Light';
-    padding-top: 1rem;
+    padding-top: 0.8rem;
     font-size: 1.3rem;
     color: #ffffff;
  }
@@ -70,13 +70,13 @@ body {
 }
 
 .container p{
-    font-family: 'Quicksand-Regular';
-    font-size: 3em;
+    font-family: 'Rabbit-On-The-Moon';
+    font-size: 4em;
     color: #ffffff;
     text-align: center;
     position: absolute;
-    margin-top: 4em;
-    margin-left: 15em;
+    margin-top: 2em;
+    margin-left: 11em;
 }
 
 .video-container {

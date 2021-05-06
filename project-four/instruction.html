@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Elaine Fei Studio Project 4</title>
+
+    <!-- add reset to create consistency between browsers and devices. -->
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" type="text/css" href="./css/instruction.css">
+</head>
+
+<body>
+
+    <div class="introduction">
+        <h1>Type on your keyboard and enjoy the night sky!</h1>
+    </div>
+
+    <div class="button"><a href="./index.html" div id='link'>Got it!</a>
+        <p>Press Space ⇀</p>
+    </div>
+
+    
+    <script>
+        var link = document.getElementById("link");
+            document.onkeydown = function (e) {
+            if (e.keyCode == 32) {
+                link.click();
+            }
+    };
+    </script>
+
+</body>
+
+</html>

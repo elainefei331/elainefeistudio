@@ -21,3 +21,9 @@
     src:url('../assets/Quicksand-Regular.woff') format('woff');
     font-weight: normal;
 }
+
+@font-face{
+    font-family: 'Rabbit-On-The-Moon';
+    src:url('../assets/Rabbit-On-The-Moon.woff') format('woff');
+    font-weight: normal;
+}

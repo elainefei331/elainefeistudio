@@ -1,0 +1,55 @@
+
+body {
+    background-color: #00001b;
+    height: 100%;
+ }
+ 
+ html{
+     height: 100%;
+     
+ }
+
+h1{
+    
+    font-family: 'Tinos-Regular';
+    color:#fffbda;
+    font-size: 20px;
+}
+
+.introduction{
+   width: 430px;
+   text-align: center;
+   margin-left: 35%;
+   padding-top: 20em;
+}
+
+.button{
+    position: absolute;
+    /* border: 1px solid; */
+    width: 15rem;
+    height: 2em;
+    text-align: center;
+    margin-top: 35em;
+    bottom: 20%;
+    left: 50%;
+    margin-left: 500px;
+    margin-bottom: -4rem;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 15px;
+    line-height:2em;
+    border-radius: 5em;
+    color: #fffbda;
+    opacity: 80%;
+    font-family: 'Tinos-Regular';
+
+} 
+
+a{
+    color: #fffbda;
+    text-decoration:none;
+}

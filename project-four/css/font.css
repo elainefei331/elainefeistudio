@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'Tinos-Regular';
+    src:url('../assets/Tinos-Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'DHF-Story-Brush';
+    src:url('../assets/DHF-Story-Brush.woff') format('woff');
+    font-weight: normal;
+}

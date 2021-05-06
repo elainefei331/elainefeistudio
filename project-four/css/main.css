@@ -1,0 +1,195 @@
+
+body {
+   background-color: #00001b;
+   height: 100%;
+   font-family: 'Tinos-Regular';
+}
+
+html{
+    height: 100%;
+}
+
+audio{
+    height: 1em;
+    background-color: #00001b;
+}
+
+.container img{
+    vertical-align: middle;
+}
+
+.star-container  {
+    /* padding: 5rem; */
+    /* border-radius: 15rem; */
+    /* border: 1px solid; */
+    width: 15rem;
+    height: 15em;
+    text-align: center;
+    /* margin-top: 2rem; */
+    background-image: url(../assets/star.png);
+    background-size: contain;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: blink 1s alternate ease-in-out infinite; 
+
+}
+
+.showText{
+    width: 15rem;
+    height: 15em;
+    text-align: center;
+    /* margin-top: 2rem; */
+    background-size: contain;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #fffbda;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: blink 1s alternate ease-in-out infinite; 
+    font-family: 'Tinos-Regular';
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+@keyframes fade {
+    from {
+
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(1.5) rotate(360deg);
+    }
+}
+
+/* fadeout是新增的属性动画， 让星星消失。 我们后面不再删除星星了， 改成透明度上做消失处理 
+！important的作用是提高该css的优先级，因为我们添加了fadeout给星星，想要fadeout优先级高于上面的star-container，所以增添了这个*/
+.fadeout {
+    animation: fade 0.8s ease-out forwards;
+    animation-delay: 0s !important;
+}
+
+.star-container .active {
+    position: absolute;
+    padding: 5rem;
+    border-radius: 15rem;  
+    /* border: 1px solid; */
+    width: 25rem;
+    height: 25em;
+    text-align: center;
+    margin-top: 2rem;
+
+    bottom: 0px;
+    left: 50%;
+    margin-left: -16rem;
+
+    background-image: url(../assets/star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+    font-family: 'Tinos-Regular';
+}
+
+.button-container{
+    position: absolute;
+    /* border: 1px solid; */
+    width: 18rem;
+    height: 2em;
+    text-align: center;
+    margin-top: 2rem;
+    bottom: 60%;
+    left: 50%;
+    margin-left: -9rem;
+    margin-bottom: -4rem;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Tinos-Regular';
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 15px;
+    line-height:2em;
+    border-radius: 5em;
+    color: #00001b;
+    background-color: #fffbda;
+    border-color: #fffbda;
+    visibility: hidden;
+}
+
+.sentence{
+    position: absolute;
+    padding: 3rem;
+    /* border: 1px solid; */
+    width: 8rem;
+    height: 0em;
+    text-align: center;
+    margin-top: 2rem;
+    bottom: 50%;
+    font-family: 'Tinos-Regular';
+    left: 50%;
+    margin-left: -6rem;
+    margin-bottom: -4rem;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 18px;
+    line-height: 1.3333333;
+    visibility: hidden;
+}
+
+.text-container{
+    width: 30rem;
+    height: 15em;
+    text-align: center;
+    background-size: contain;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #fffbda;
+    background-repeat: no-repeat;
+    position: absolute;
+    font-family: 'Tinos-Regular';
+    left: 0;
+    top: 0;
+    text-align: left;
+}
+
+.show-user{
+    color: #fffbda;
+    font-size: large;
+    margin-left: 31%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Tinos-Regular';
+}
+
+.show-hint{
+    color: #fffbda;
+    font-family: 'Tinos-Regular';
+    font-size: large;
+}
+.show-click{
+    color: #fffbda;
+    font-family: 'Tinos-Regular';
+    font-size: large;
+    background-color: #00001b;
+    width: 500px;
+    height: 20px;
+
+}

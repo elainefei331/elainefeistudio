@@ -1,0 +1,41 @@
+
+body {
+    background-color: #00001b;
+
+ }
+
+ .introduction {
+    color: #fffbda;
+    font-family: 'Tinos-Regular';
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20em;
+ }
+
+ .button{
+    position: absolute;
+    /* border: 1px solid; */
+    width: 10rem;
+    height: 2em;
+    text-align: center;
+    left: 50%;
+    margin-left: -5rem;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 15px;
+    line-height:2em;
+    border-radius: 5em;
+    color: #05052C;
+    background-color: #fffbda;
+    border-color: #fffbda;
+    font-family: 'Tinos-Regular';
+} 
+
+a{
+   text-decoration: none;
+   color: #05052C;
+   font-family: 'Tinos-Regular';
+}
